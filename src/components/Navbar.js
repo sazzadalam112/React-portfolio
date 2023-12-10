@@ -20,13 +20,17 @@ const Navbar = () => {
         },
         {
             id: 4,
+            link: 'Experience'
+        },
+        {
+            id: 5,
             link: 'Contact'
         },
         ]
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black'>
+    <div className='flex justify-between items-center w-full h-20 text-white fixed bg-gray-900'>
         <div>
-            <h1 className='text-5xl font-light ml-2'>Sazzad</h1>
+            <h1 className='text-5xl font-signature ml-2'>Sazzad</h1>
         </div>
 
         <ul className='hidden md:flex'>

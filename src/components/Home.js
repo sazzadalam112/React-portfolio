@@ -10,7 +10,7 @@ const Home = () => {
 
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className='flex flex-col justify-center h-full'>
-        <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Frontend-Developer</h2>
+        <h2 className='text-4xl md:text-7xl mt-20 font-bold text-white'>I'm a Frontend-Developer</h2>
         <p className='text-gray-500 py-6 max-w-md'>
         I'm Sazzad a CSE student who is interested in Web development .
          i have a passion for creating beautiful web applications.
@@ -18,9 +18,9 @@ const Home = () => {
          Html,css,Javascript,React,tailwind
         </p>
         <div>
-            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
+            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-900 to-blue-900'>
                 Portfolio
-                <span className='group-hover:rotate-90 duration-300'>
+                <span className='group-hover:rotate-90 duration-500'>
                     <MdOutlineKeyboardArrowRight size={25} />
                 </span>
             </button>

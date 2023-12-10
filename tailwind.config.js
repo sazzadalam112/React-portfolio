@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: 'burtons'
+       signature: ['Great Vibes'],
       }
     },
   },

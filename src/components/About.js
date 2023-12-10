@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name = "about" className='w-full bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name = "about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
      
      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
          <div className='pb-8'>
@@ -10,6 +10,10 @@ const About = () => {
          </div>
          <p className='text-xl mt-20'>
          I am Md Sazzad Alam I hold a Bechelor of Science in Computere Science from Nalanda College of Engineering with a CGPA of 7.99. I am proficient in programming languages such as JavaScript, Python and HTML/CSS. I have also worked with various developer tools such as VS Code
+         </p>
+         <p>
+        <br/>
+         Various educators teach rules governing the length of paragraphs. They may say that a paragraph should be 100 to 200 words long, or be no more than five or six sentences. But a good paragraph should not be measured in characters, words, or sentences. The true measure of your paragraphs should be ideas.
          </p>
        
      </div>
