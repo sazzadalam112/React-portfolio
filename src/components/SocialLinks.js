@@ -47,17 +47,17 @@ const SocialLinks = () => {
         style: 'rounded-tr-md'
         
     },
-    {
-        id: 5, 
-        child: (
-            <>
-           <BsFillPersonLinesFill  size={30} Resume />
-            </>
-        ),
-        href: "/resume.png",
-        style: 'rounded-tr-md',
-        download: true,
-    },
+    // {
+    //     id: 5, 
+    //     child: (
+    //         <>
+    //        <BsFillPersonLinesFill  size={30} Resume />
+    //         </>
+    //     ),
+    //     href: "/resume.png",
+    //     style: 'rounded-tr-md',
+    //     download: true,
+    // },
  ]
   return (
     <div className=' sm:hidden lg:flex flex-col top-[42%] right-0 fixed'>
