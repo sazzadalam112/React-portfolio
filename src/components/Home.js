@@ -8,13 +8,13 @@ const Home = () => {
 
   return (
     <div 
-      name= "home"
+      name= "Home"
       className='h-auto w-full bg-gradient-to-b from-black to-gray-800 text-white pt-10'>
 
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:h-screen px-4 md:flex-row">
-            <div className='flex flex-col justify-center h-full'>
-        <h2 className='text-4xl md:text-7xl mt-20 font-bold text-red-400'>I'm a Frontend-Developer</h2>
-        <p className='text-gray-500 py-6 max-w-md'>
+            <div className='flex flex-col justify-center h-full '>
+        <h2 className='text-4xl md:text-7xl mt-20 font-bold text-red-400 px-5'>I'm a Frontend-Developer</h2>
+        <p className='text-gray-500 py-6 max-w-md px-5'>
        
          I am Md Sazzad Alam I hold a Bechelor of Science in Computere Science from Nalanda College of Engineering . I am proficient in programming languages such as JavaScript,React,Tailwind, Python and HTML/CSS. I have also worked with various developer tools such as VS Code
         </p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name = 'constact' 
+    <div name = 'Contact' 
     className='w-full h-full  bg-gradient-to-b from-black to bg-gray-800 p-4 text-white'>
      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8'>
@@ -41,4 +41,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
