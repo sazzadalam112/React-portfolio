@@ -2,6 +2,7 @@ import React from 'react'
 import MyImage from "../assets/myimage.png";
 import{ MdOutlineKeyboardArrowRight } from "react-icons/md"
 // import {BsFillPersonLinesFill} from "react-icons/bs";
+import { Link } from 'react-scroll';
 
 
 const Home = () => {
@@ -19,12 +20,14 @@ const Home = () => {
          I am Md Sazzad Alam I hold a Bechelor of Science in Computere Science from Nalanda College of Engineering . I am proficient in programming languages such as JavaScript,React,Tailwind, Python and HTML/CSS. I have also worked with various developer tools such as VS Code
         </p>
         <div className='flex '>
-            <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-900 to-blue-900 '>
+            <Link to='Portfolio'
+            smooth duration={500}
+            className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-900 to-blue-900 '>
                 Portfolio
                 <span className='group-hover:rotate-90 duration-500'>
                     <MdOutlineKeyboardArrowRight size={25} />
                 </span>
-            </button>
+            </Link>
             <li className='group text-white w-fit px-6  my-2 flex items-center rounded-md bg-gradient-to-r from-red-900 to-blue-900 mx-6 '>
                <a 
                href='/resume.png' 
